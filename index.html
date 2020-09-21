@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width">
+	<link href="https://fonts.googleapis.com/css2?family=Modak&family=Spectral+SC:ital,wght@1,600&display=swap" rel="stylesheet">
+	<title>Game Lesson</title>
+</head>
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/style.css">
+
+<body>
+	<div class="main"> 
+		<div class="header">
+			Fight vs Darth VaDeR
+		</div>
+		<div class="mainGame">
+			<div class="gamePlayer">
+				<div class="playerName">
+						Магістр Йода
+				</div>
+
+				<div class="playerImg">
+						<img src="img/NewYoda.png" alt="gg">
+				</div>
+
+				<div class="playerHp">
+					<div class="playerHealthNow hpNow">
+							 <b>100%</b>
+					</div>
+
+					<div class="playerHealthLost hpLost">
+							 
+					</div>
+				</div>
+			</div>
+
+			<div class="game">
+				<div class="fightPlayers">
+					<div class="playerAttack">
+						<div class="attackHead">
+							<label for="headLeft">Head</label><input type="radio" name="attack" class="attack" id="headLeft" value="1" checked="true">
+						</div>
+						
+						<div class="attackBody">
+							<label for="corpLeft">Body</label><input type="radio" name="attack" class="attack" id="corpLeft" value="2">
+						</div>
+						
+						<div class="attackFoot">
+							<label for="footLeft">Foot</label><input type="radio" name="attack" class="attack" id="footLeft" value="3">
+						</div>
+					</div>
+			
+					<div class="playerDefend">
+
+						<div class="defendHead">
+							<input type="radio" name="def" class="defend" id="headRight" value="1" checked="true"><label for="headRight">Head</label> 
+						</div>
+
+						<div class="defendBody">
+							<input type="radio" name="def" class="defend" id="corpRight" value="2"><label for="corpRight">Body</label> 
+						</div>
+						
+						<div class="defendFoot">
+							<input type="radio" name="def" class="defend" id="footRight" value="3"><label for="footRight">Foot</label>
+						</div>
+					</div>
+				</div>
+
+				<div class="buttonFight">
+					<input type="button" value="Fight" id="fight">
+				</div>
+			</div>
+
+			<div class="gameBot">
+				<div class="botName">
+					DaRtH VaDeR
+				</div>
+
+				<div class="botImg">
+					<img src="img/ve.jpg" alt="gg">
+				</div>
+
+				<div class="botHp">
+					<div class="botHealthNow hpNow">
+						<b>100%</b>
+					</div>
+
+					<div class="botHealthLost hpLost">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<div class="logGame"> 
+				<div class="logName">Лог бою: </div>
+				<div class="log"> 
+			</div>
+		</div>
+	</div>
+	
+
+
+	
+<script src="js/script.js"></script>
+</body>
+</html>
