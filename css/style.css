@@ -150,6 +150,17 @@ img {
 	color: #fcec03;
 }
 
+.fightLog .playersHp {
+	color: lime;
+	font-weight: bold;
+}
+
+.fightLog .botsHp {
+	color: red;
+	font-weight: bold;
+
+}
+
 .logName {
 	color: aqua;
 	text-align: center;
